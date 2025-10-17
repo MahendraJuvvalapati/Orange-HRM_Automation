@@ -53,7 +53,7 @@ public class DashboardPage extends BasePage {
         return allDisplayed;
     }
 
-    public boolean isLogout() {
+    public boolean clickOnLogout() {
         log.info("Performing logout action");
         click(profileDropdown); // BasePage logs click
         click(logOut);           // BasePage logs click
