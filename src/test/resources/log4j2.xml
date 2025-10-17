@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders> <!-- Console Appender -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console> <!--
+		Plain text log file -->
+		<File name="FileLogger" fileName="logs/test-log.log" append="true">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File> <!--
+		HTML log file (real HTML version) -->
+		<File name="HtmlLogger" fileName="logs/test-log.html" append="false">
+			<HTMLLayout title="Automation Test Logs" charset="UTF-8"
+				locationInfo="true" complete="true" contentType="text/html"
+				header="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt; &lt;meta charset='UTF-8'/&gt; &lt;title&gt;Automation Test Logs&lt;/title&gt; &lt;style&gt; body { font-family: Arial, sans-serif; background-color: #fafafa; margin: 10px; } table { width: 100%; border-collapse: collapse; } th { background-color: #2c3e50; color: white; padding: 8px; text-align: left; } td { padding: 6px; border-bottom: 1px solid #ddd; } tr td.Level { font-weight: bold; } tr td.Level:contains('INFO') { color: green; } tr td.Level:contains('ERROR') { color: red; } tr td.Level:contains('WARN') { color: orange; } tr td.Level:contains('DEBUG') { color: gray; } &lt;/style&gt; &lt;/head&gt;&lt;body&gt; &lt;h2&gt;Automation Test Execution Logs&lt;/h2&gt;"
+				footer="&lt;/body&gt;&lt;/html&gt;" />
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<AppenderRef ref="HtmlLogger" />
+		</Root>
+		<Logger name="base" level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<AppenderRef ref="HtmlLogger" />
+		</Logger>
+		<Logger name="pages" level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<AppenderRef ref="HtmlLogger" />
+		</Logger>
+		<Logger name="tests" level="info" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<AppenderRef ref="HtmlLogger" />
+		</Logger>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" verbose="1" parallel="false">
+
+    <!-- Listener for reports -->
+    <listeners>
+        <listener class-name="utilities.ListenersUtil"/>
+    </listeners>
+
+    <test name="AllTests" parallel="true">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+
+</suite>
