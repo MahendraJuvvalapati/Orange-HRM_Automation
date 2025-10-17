@@ -45,7 +45,7 @@ public class DashboardTest extends BaseTest {
 
         DashboardPage dashboardPage = new DashboardPage(getDriver());
         log.info("Performing logout");
-        boolean isLoggedOut = dashboardPage.isLogout();
+        boolean isLoggedOut = dashboardPage.clickOnLogout();
         Assert.assertTrue(isLoggedOut, "Log Out Failed....");
 
         log.info("========== Test Finished: verifyLogout ==========");

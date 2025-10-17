@@ -8341,3 +8341,1041 @@ Driver info: driver.version: unknown
 2025-10-17 16:14:36.744 [main] INFO  tests.LoginTest - Verifying user deletion result
 2025-10-17 16:14:36.744 [main] INFO  tests.LoginTest - User deleted succesfully.
 2025-10-17 16:14:36.747 [main] INFO  base.BaseTest - Closing browser
+2025-10-17 16:28:39.095 [main] INFO  utilities.ExtentReportUtils - âœ… ExtentReports initialized at: D:\Automation practice\javaSelenium\Orange-HRM/reports/ExtentReport_20251017_162838.html
+2025-10-17 16:28:39.586 [main] INFO  utilities.ListenersUtil - â–¶ï¸� Suite started: AllTests
+2025-10-17 16:28:39.665 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“‚ Opening Excel file: D:\Automation practice\javaSelenium\Orange-HRM/testData/credentials.xlsx
+2025-10-17 16:28:39.681 [TestNG-test-AllTests-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:39.681 [TestNG-test-AllTests-5] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:39.681 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:39.681 [TestNG-test-AllTests-4] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-4] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-5] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:39.684 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:39.682 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:40.659 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“Š Sheet 'Sheet1' has 3 rows and 2 columns
+2025-10-17 16:28:40.689 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - âœ… Successfully read data from Excel sheet 'Sheet1'
+2025-10-17 16:28:40.707 [TestNG-PoolService-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:40.707 [TestNG-PoolService-1] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:40.709 [TestNG-PoolService-1] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:40.710 [TestNG-PoolService-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:40.711 [TestNG-PoolService-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:40.711 [TestNG-PoolService-1] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:40.710 [TestNG-PoolService-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:40.717 [TestNG-PoolService-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:40.723 [TestNG-PoolService-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:42.393 [TestNG-test-AllTests-4] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:42.393 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:42.409 [TestNG-test-AllTests-5] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:42.455 [TestNG-test-AllTests-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:43.622 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:43.661 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:43.661 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:43.722 [TestNG-PoolService-1] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:43.745 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:43.769 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:43.789 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:43.798 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:43.905 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:43.921 [TestNG-PoolService-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:43.946 [TestNG-PoolService-1] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:44.018 [TestNG-PoolService-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:44.107 [TestNG-PoolService-1] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:44.256 [TestNG-PoolService-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:44.279 [TestNG-PoolService-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:44.284 [TestNG-PoolService-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:44.293 [TestNG-PoolService-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:28:45.519 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:45.554 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyForgotPassword
+2025-10-17 16:28:45.555 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyForgotPassword
+2025-10-17 16:28:45.559 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Started: verifyForgotPassword ==========
+2025-10-17 16:28:45.570 [TestNG-PoolService-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:45.573 [TestNG-PoolService-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:28:45.574 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:28:45.577 [TestNG-PoolService-3] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: RamCharan
+2025-10-17 16:28:45.588 [TestNG-PoolService-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:45.588 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:45.589 [TestNG-PoolService-3] INFO  pages.LoginPage - Attempting login for user: RamCharan
+2025-10-17 16:28:45.590 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing forgot password flow for user: Admin
+2025-10-17 16:28:45.591 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'RamCharan' into element: By.name: username
+2025-10-17 16:28:45.591 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Initiating forgot password flow for user: Admin
+2025-10-17 16:28:45.592 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']
+2025-10-17 16:28:45.650 [TestNG-PoolService-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:45.653 [TestNG-test-AllTests-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:45.655 [TestNG-PoolService-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:28:45.656 [TestNG-test-AllTests-5] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:45.657 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:28:45.658 [TestNG-PoolService-2] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Mahendra
+2025-10-17 16:28:45.660 [TestNG-PoolService-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:45.663 [TestNG-test-AllTests-5] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogout
+2025-10-17 16:28:45.663 [TestNG-PoolService-2] INFO  pages.LoginPage - Attempting login for user: Mahendra
+2025-10-17 16:28:45.663 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogout
+2025-10-17 16:28:45.663 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'Mahendra' into element: By.name: username
+2025-10-17 16:28:45.665 [TestNG-test-AllTests-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyDashboardPageElements
+2025-10-17 16:28:45.676 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyDashboardPageElements
+2025-10-17 16:28:45.677 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Started: verifyDashboardPageElements ==========
+2025-10-17 16:28:45.679 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:45.680 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:28:45.680 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Started: verifyLogout ==========
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:28:45.681 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:28:47.738 [TestNG-test-AllTests-4] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:47.741 [TestNG-test-AllTests-4] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogin
+2025-10-17 16:28:47.742 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogin
+2025-10-17 16:28:47.744 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Started: verifyLogin ==========
+2025-10-17 16:28:47.745 [TestNG-test-AllTests-4] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:47.745 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:28:47.746 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:28:47.747 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:28:47.801 [TestNG-PoolService-1] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:28:47.803 [TestNG-PoolService-1] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:28:47.805 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:28:47.805 [TestNG-PoolService-1] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Admin
+2025-10-17 16:28:47.806 [TestNG-PoolService-1] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:28:47.806 [TestNG-PoolService-1] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:28:47.807 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:28:49.080 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.081 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:49.248 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.249 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:49.288 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.289 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:49.301 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.302 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:49.446 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.447 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:49.513 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.514 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:49.791 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.792 [TestNG-PoolService-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:49.802 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.802 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:49.824 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.825 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:49.925 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:49.925 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:28:50.019 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:50.025 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:50.198 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:50.198 [TestNG-test-AllTests-4] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:50.286 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:50.287 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:50.522 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:50.524 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:50.723 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:50.724 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:28:51.067 [TestNG-PoolService-1] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:51.068 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:51.097 [TestNG-PoolService-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:51.098 [TestNG-PoolService-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:51.136 [TestNG-PoolService-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:51.136 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:51.623 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:51.623 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:52.033 [TestNG-PoolService-3] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:52.035 [TestNG-PoolService-3] WARN  pages.LoginPage - Login failed for user: RamCharan
+2025-10-17 16:28:52.035 [TestNG-PoolService-3] WARN  base.BaseTest - â�Œ Login failed for user: RamCharan
+2025-10-17 16:28:52.039 [TestNG-PoolService-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:28:52.040 [TestNG-PoolService-2] WARN  pages.LoginPage - Login failed for user: Mahendra
+2025-10-17 16:28:52.040 [TestNG-PoolService-2] WARN  base.BaseTest - â�Œ Login failed for user: Mahendra
+2025-10-17 16:28:52.053 [TestNG-PoolService-2] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (6396 ms)
+2025-10-17 16:28:52.053 [TestNG-PoolService-3] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (6478 ms)
+2025-10-17 16:28:52.364 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_162852.png
+2025-10-17 16:28:52.368 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_162852.png
+2025-10-17 16:28:52.373 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_162852.png
+2025-10-17 16:28:52.390 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_162852.png
+2025-10-17 16:28:52.398 [TestNG-PoolService-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:28:52.405 [TestNG-PoolService-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:28:52.843 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:28:52.844 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:28:53.655 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:28:53.656 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:28:55.170 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:28:55.170 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Reset password link sent successfully for user: Admin
+2025-10-17 16:28:55.171 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying reset password result
+2025-10-17 16:28:55.171 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Finished: verifyForgotPassword ==========
+2025-10-17 16:28:55.173 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: verifyForgotPassword (9617 ms)
+2025-10-17 16:28:55.177 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:28:55.473 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:28:55.473 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:28:55.474 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:28:56.339 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:28:56.412 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:28:56.432 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:29:00.243 [TestNG-test-AllTests-4] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:00.243 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:00.243 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:29:00.244 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Finished: verifyLogin ==========
+2025-10-17 16:29:00.245 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogin (12502 ms)
+2025-10-17 16:29:00.249 [TestNG-test-AllTests-4] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:00.457 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:29:00.460 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: createNewAdmin
+2025-10-17 16:29:00.461 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: createNewAdmin
+2025-10-17 16:29:00.462 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:00.463 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:29:00.463 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:29:00.463 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:29:00.574 [TestNG-test-AllTests-4] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:29:00.575 [TestNG-test-AllTests-4] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:29:00.576 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:29:00.890 [TestNG-test-AllTests-2] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:00.891 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:00.926 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:00.927 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying Dashboard heading visibility
+2025-10-17 16:29:00.927 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:29:00.928 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:29:00.998 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:29:00.998 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Dashboard heading displayed: true
+2025-10-17 16:29:00.998 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying profile image visibility
+2025-10-17 16:29:00.999 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if profile image is displayed
+2025-10-17 16:29:00.999 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:29:01.045 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:29:01.045 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Profile image displayed: true
+2025-10-17 16:29:01.045 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying all Dashboard widgets visibility
+2025-10-17 16:29:01.046 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if all widgets on Dashboard are displayed
+2025-10-17 16:29:01.046 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:29:01.090 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:29:01.090 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:29:01.146 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:29:01.150 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:29:01.254 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:29:01.255 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:29:01.320 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:29:01.320 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:29:01.453 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:29:01.453 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:29:01.524 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:29:01.526 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:29:01.598 [TestNG-PoolService-1] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:01.603 [TestNG-PoolService-1] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:01.604 [TestNG-PoolService-1] INFO  base.BaseTest - âœ… Login successful for user: Admin
+2025-10-17 16:29:01.606 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - âœ… Test passed: loginWithExcelData (13799 ms)
+2025-10-17 16:29:01.619 [TestNG-PoolService-1] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:01.627 [TestNG-test-AllTests-4] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:29:01.685 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:29:01.685 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - All widgets displayed: true
+2025-10-17 16:29:01.691 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Finished: verifyDashboardPageElements ==========
+2025-10-17 16:29:01.693 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - âœ… Test passed: verifyDashboardPageElements (16026 ms)
+2025-10-17 16:29:01.698 [TestNG-test-AllTests-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:01.845 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:29:01.898 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:29:01.956 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:01.957 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:01.963 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:01.965 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Performing logout
+2025-10-17 16:29:01.967 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Performing logout action
+2025-10-17 16:29:01.968 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-userdropdown-name']
+2025-10-17 16:29:02.266 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:02.267 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //a[normalize-space()='Logout']
+2025-10-17 16:29:02.301 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:02.301 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:29:02.555 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:02.555 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:29:02.725 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:02.726 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:03.519 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:03.520 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:29:03.521 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:29:04.741 [TestNG-test-AllTests-4] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:29:04.743 [TestNG-test-AllTests-4] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: deleteAdminUser
+2025-10-17 16:29:04.743 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: deleteAdminUser
+2025-10-17 16:29:04.744 [TestNG-test-AllTests-4] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:04.744 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:29:04.745 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:29:04.745 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:29:05.382 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:05.383 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:29:05.504 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:05.504 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:29:05.596 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:05.596 [TestNG-test-AllTests-4] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:13.201 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:13.201 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:13.202 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:29:13.207 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:13.208 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:29:13.209 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:29:13.712 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:29:13.713 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Dashboard heading displayed: false
+2025-10-17 16:29:13.713 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Logout successful
+2025-10-17 16:29:13.713 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Finished: verifyLogout ==========
+2025-10-17 16:29:13.713 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogout (28049 ms)
+2025-10-17 16:29:13.716 [TestNG-test-AllTests-5] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:14.210 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:14.211 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:29:14.212 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Add button
+2025-10-17 16:29:14.213 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Add']
+2025-10-17 16:29:15.350 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:15.351 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Add button clicked
+2025-10-17 16:29:15.352 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Admin role
+2025-10-17 16:29:15.352 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[contains(text(),'-- Select --')])[1]
+2025-10-17 16:29:16.107 [TestNG-test-AllTests-4] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:29:16.108 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:29:16.108 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:29:16.109 [TestNG-test-AllTests-4] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:29:16.109 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:29:16.109 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:29:16.150 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:16.150 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[contains(text(),'Admin')]
+2025-10-17 16:29:16.304 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:16.304 [TestNG-test-AllTests-3] INFO  pages.LoginPage - User Role selected: Admin
+2025-10-17 16:29:16.304 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Typing Employee Name: a
+2025-10-17 16:29:16.305 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'a' into element: By.xpath: //input[@placeholder='Type for hints...']
+2025-10-17 16:29:16.522 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:16.523 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: ((//div[@role='listbox'])[1]//span)[1]
+2025-10-17 16:29:17.158 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:17.158 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:29:17.159 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:29:17.160 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:29:17.908 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:17.908 [TestNG-test-AllTests-4] INFO  pages.LoginPage -  Username Entered: Mahendra
+2025-10-17 16:29:17.908 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Clicking on search button
+2025-10-17 16:29:17.908 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Search']
+2025-10-17 16:29:18.137 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:18.137 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Search Button CLicked
+2025-10-17 16:29:18.138 [TestNG-test-AllTests-4] INFO  pages.LoginPage - selecting user checkbox
+2025-10-17 16:29:18.138 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-table-card']//div//div)[1]
+2025-10-17 16:29:18.339 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:18.339 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Employee Name selected
+2025-10-17 16:29:18.339 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Status Enabled
+2025-10-17 16:29:18.340 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+2025-10-17 16:29:18.527 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:18.528 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Enabled']
+2025-10-17 16:29:18.710 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:18.711 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Status selected Enabled
+2025-10-17 16:29:18.711 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:29:18.712 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:29:18.914 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:18.915 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Username entered: Mahendra
+2025-10-17 16:29:18.915 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Password
+2025-10-17 16:29:18.915 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[1]
+2025-10-17 16:29:19.121 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:19.122 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Password entered
+2025-10-17 16:29:19.122 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Confirm Password
+2025-10-17 16:29:19.123 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[2]
+2025-10-17 16:29:19.328 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:29:19.329 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Confirm Password entered
+2025-10-17 16:29:19.329 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Save button
+2025-10-17 16:29:19.330 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Save']
+2025-10-17 16:29:19.506 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:29:19.508 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Save button clicked
+2025-10-17 16:29:19.508 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:29:25.142 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:29:25.143 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying user creation result
+2025-10-17 16:29:25.143 [TestNG-test-AllTests-3] INFO  tests.LoginTest - User created succesfully.
+2025-10-17 16:29:25.145 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: createNewAdmin (24683 ms)
+2025-10-17 16:29:25.151 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:28.361 [TestNG-test-AllTests-4] ERROR utilities.ListenersUtil - â�Œ Test failed: deleteAdminUser (23617 ms)
+2025-10-17 16:29:28.539 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/deleteAdminUser_20251017_162928.png
+2025-10-17 16:29:28.540 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/deleteAdminUser_20251017_162928.png
+2025-10-17 16:29:28.544 [TestNG-test-AllTests-4] INFO  base.BaseTest - Closing browser
+2025-10-17 16:29:28.783 [main] INFO  utilities.ListenersUtil - ðŸ�� Suite finished: AllTests
+2025-10-17 16:29:29.608 [main] INFO  utilities.ExtentReportUtils - ðŸ�� ExtentReports flushed successfully
+2025-10-17 16:32:29.391 [main] INFO  utilities.ExtentReportUtils - âœ… ExtentReports initialized at: D:\Automation practice\javaSelenium\Orange-HRM/reports/ExtentReport_20251017_163229.html
+2025-10-17 16:32:29.638 [main] INFO  utilities.ListenersUtil - â–¶ï¸� Suite started: AllTests
+2025-10-17 16:32:29.709 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“‚ Opening Excel file: D:\Automation practice\javaSelenium\Orange-HRM/testData/credentials.xlsx
+2025-10-17 16:32:29.736 [TestNG-test-AllTests-5] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:29.736 [TestNG-test-AllTests-4] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:29.736 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:29.736 [TestNG-test-AllTests-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-5] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-4] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:29.738 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:29.740 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:29.740 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:30.689 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“Š Sheet 'Sheet1' has 3 rows and 2 columns
+2025-10-17 16:32:30.709 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - âœ… Successfully read data from Excel sheet 'Sheet1'
+2025-10-17 16:32:30.718 [TestNG-PoolService-1] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:30.724 [TestNG-PoolService-1] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:30.725 [TestNG-PoolService-1] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:30.727 [TestNG-PoolService-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:30.727 [TestNG-PoolService-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:30.728 [TestNG-PoolService-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:30.729 [TestNG-PoolService-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:30.734 [TestNG-PoolService-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:30.735 [TestNG-PoolService-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:32.270 [TestNG-test-AllTests-4] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:32.270 [TestNG-test-AllTests-5] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:32.273 [TestNG-test-AllTests-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:32.279 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:32.509 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:32.574 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:32.589 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:32.617 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:32.659 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:33.200 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:33.206 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:33.229 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:33.600 [TestNG-PoolService-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:33.828 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:33.870 [TestNG-PoolService-1] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:33.887 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyForgotPassword
+2025-10-17 16:32:33.888 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyForgotPassword
+2025-10-17 16:32:33.889 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Started: verifyForgotPassword ==========
+2025-10-17 16:32:33.910 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:33.912 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing forgot password flow for user: Admin
+2025-10-17 16:32:33.912 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Initiating forgot password flow for user: Admin
+2025-10-17 16:32:33.913 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']
+2025-10-17 16:32:33.952 [TestNG-PoolService-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:34.012 [TestNG-PoolService-1] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:34.017 [TestNG-PoolService-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:34.073 [TestNG-PoolService-1] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:34.096 [TestNG-test-AllTests-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:34.119 [TestNG-test-AllTests-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyDashboardPageElements
+2025-10-17 16:32:34.119 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyDashboardPageElements
+2025-10-17 16:32:34.120 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Started: verifyDashboardPageElements ==========
+2025-10-17 16:32:34.121 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:34.123 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:32:34.125 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:34.126 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:34.170 [TestNG-PoolService-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:34.180 [TestNG-test-AllTests-5] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:34.196 [TestNG-test-AllTests-5] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogout
+2025-10-17 16:32:34.197 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogout
+2025-10-17 16:32:34.198 [TestNG-test-AllTests-4] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:34.198 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Started: verifyLogout ==========
+2025-10-17 16:32:34.199 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:34.200 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:32:34.201 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:34.201 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:34.202 [TestNG-test-AllTests-4] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogin
+2025-10-17 16:32:34.203 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogin
+2025-10-17 16:32:34.204 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Started: verifyLogin ==========
+2025-10-17 16:32:34.205 [TestNG-test-AllTests-4] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:34.206 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:32:34.206 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:34.207 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:34.288 [TestNG-PoolService-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:34.323 [TestNG-PoolService-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:37.009 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:37.009 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:37.017 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:37.018 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:37.132 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:37.132 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:37.196 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:37.197 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:37.284 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:37.285 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:37.383 [TestNG-PoolService-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:37.387 [TestNG-PoolService-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:32:37.388 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:32:37.390 [TestNG-PoolService-2] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Mahendra
+2025-10-17 16:32:37.391 [TestNG-PoolService-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:37.393 [TestNG-PoolService-2] INFO  pages.LoginPage - Attempting login for user: Mahendra
+2025-10-17 16:32:37.394 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'Mahendra' into element: By.name: username
+2025-10-17 16:32:37.431 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:37.431 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:37.469 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:37.469 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:37.572 [TestNG-PoolService-1] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:37.576 [TestNG-PoolService-1] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:32:37.576 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:32:37.577 [TestNG-PoolService-1] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Admin
+2025-10-17 16:32:37.577 [TestNG-PoolService-1] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:37.578 [TestNG-PoolService-1] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:37.578 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:37.851 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:37.852 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:37.953 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:37.953 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:32:38.091 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:38.091 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:38.195 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:38.196 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:38.311 [TestNG-PoolService-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:38.313 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:38.847 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:38.847 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:39.028 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:39.029 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:39.112 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:39.113 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:39.259 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:39.260 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:39.269 [TestNG-PoolService-1] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:39.270 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:39.344 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:32:39.345 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Reset password link sent successfully for user: Admin
+2025-10-17 16:32:39.346 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying reset password result
+2025-10-17 16:32:39.350 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Finished: verifyForgotPassword ==========
+2025-10-17 16:32:39.358 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: verifyForgotPassword (5467 ms)
+2025-10-17 16:32:39.366 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:39.725 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:39.726 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:39.726 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:40.143 [TestNG-PoolService-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:40.143 [TestNG-PoolService-2] WARN  pages.LoginPage - Login failed for user: Mahendra
+2025-10-17 16:32:40.144 [TestNG-PoolService-2] WARN  base.BaseTest - â�Œ Login failed for user: Mahendra
+2025-10-17 16:32:40.181 [TestNG-PoolService-2] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (2777 ms)
+2025-10-17 16:32:40.580 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163240.png
+2025-10-17 16:32:40.593 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163240.png
+2025-10-17 16:32:40.595 [TestNG-PoolService-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:40.764 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:40.765 [TestNG-test-AllTests-4] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:40.783 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:40.853 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:40.887 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:41.592 [TestNG-PoolService-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:41.594 [TestNG-PoolService-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:32:41.594 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:32:41.595 [TestNG-PoolService-3] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: RamCharan
+2025-10-17 16:32:41.595 [TestNG-PoolService-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:41.596 [TestNG-PoolService-3] INFO  pages.LoginPage - Attempting login for user: RamCharan
+2025-10-17 16:32:41.596 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'RamCharan' into element: By.name: username
+2025-10-17 16:32:42.904 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:42.904 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:43.040 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:43.040 [TestNG-PoolService-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:43.185 [TestNG-PoolService-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:43.186 [TestNG-PoolService-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:43.897 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:43.901 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: createNewAdmin
+2025-10-17 16:32:43.902 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: createNewAdmin
+2025-10-17 16:32:43.903 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:43.903 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:32:43.903 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:43.903 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:44.493 [TestNG-PoolService-3] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:44.494 [TestNG-PoolService-3] WARN  pages.LoginPage - Login failed for user: RamCharan
+2025-10-17 16:32:44.494 [TestNG-PoolService-3] WARN  base.BaseTest - â�Œ Login failed for user: RamCharan
+2025-10-17 16:32:44.496 [TestNG-PoolService-3] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (2901 ms)
+2025-10-17 16:32:44.557 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:44.558 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:44.669 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:44.669 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:44.673 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163244.png
+2025-10-17 16:32:44.674 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163244.png
+2025-10-17 16:32:44.676 [TestNG-PoolService-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:44.780 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:44.781 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:47.729 [TestNG-test-AllTests-2] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:47.730 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:32:47.729 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:47.731 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:32:47.731 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:47.731 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:47.732 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying Dashboard heading visibility
+2025-10-17 16:32:47.732 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Performing logout
+2025-10-17 16:32:47.732 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:32:47.732 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Performing logout action
+2025-10-17 16:32:47.732 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:32:47.733 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-userdropdown-name']
+2025-10-17 16:32:47.789 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:32:47.800 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Dashboard heading displayed: true
+2025-10-17 16:32:47.802 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying profile image visibility
+2025-10-17 16:32:47.802 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if profile image is displayed
+2025-10-17 16:32:47.802 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:32:47.963 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:32:47.964 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Profile image displayed: true
+2025-10-17 16:32:47.964 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying all Dashboard widgets visibility
+2025-10-17 16:32:47.964 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if all widgets on Dashboard are displayed
+2025-10-17 16:32:47.964 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:32:48.201 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:32:48.202 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:32:48.289 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:48.289 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //a[normalize-space()='Logout']
+2025-10-17 16:32:48.401 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:32:48.401 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:32:48.636 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:32:48.636 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:32:48.887 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:32:48.887 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:32:49.049 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:32:49.050 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:32:49.212 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:32:49.213 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:32:49.292 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:32:49.292 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - All widgets displayed: true
+2025-10-17 16:32:49.293 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Finished: verifyDashboardPageElements ==========
+2025-10-17 16:32:49.295 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - âœ… Test passed: verifyDashboardPageElements (15176 ms)
+2025-10-17 16:32:49.300 [TestNG-test-AllTests-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:49.819 [TestNG-PoolService-1] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:49.819 [TestNG-PoolService-1] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:32:49.835 [TestNG-PoolService-1] INFO  base.BaseTest - âœ… Login successful for user: Admin
+2025-10-17 16:32:49.850 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - âœ… Test passed: loginWithExcelData (12273 ms)
+2025-10-17 16:32:49.856 [TestNG-PoolService-1] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:49.883 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:49.883 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:32:49.884 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:32:50.699 [TestNG-test-AllTests-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:32:50.704 [TestNG-test-AllTests-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:32:50.711 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:32:51.060 [TestNG-test-AllTests-4] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:51.061 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:32:51.061 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:32:51.062 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Finished: verifyLogin ==========
+2025-10-17 16:32:51.062 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogin (16858 ms)
+2025-10-17 16:32:51.065 [TestNG-test-AllTests-4] INFO  base.BaseTest - Closing browser
+2025-10-17 16:32:51.859 [TestNG-test-AllTests-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:32:51.906 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:32:51.918 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:32:54.897 [TestNG-test-AllTests-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:32:54.900 [TestNG-test-AllTests-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: deleteAdminUser
+2025-10-17 16:32:54.901 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: deleteAdminUser
+2025-10-17 16:32:54.901 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:54.902 [TestNG-test-AllTests-2] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:32:54.902 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:32:54.903 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:32:55.223 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:55.224 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:32:55.226 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:32:55.230 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:32:55.231 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:32:55.232 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:32:56.220 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:56.221 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:32:56.222 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Add button
+2025-10-17 16:32:56.223 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Add']
+2025-10-17 16:32:57.380 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:57.380 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Add button clicked
+2025-10-17 16:32:57.380 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Admin role
+2025-10-17 16:32:57.380 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[contains(text(),'-- Select --')])[1]
+2025-10-17 16:32:57.776 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:57.776 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:32:57.979 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:57.981 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:32:58.055 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:58.055 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[contains(text(),'Admin')]
+2025-10-17 16:32:58.097 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:58.097 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:32:58.197 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:32:58.198 [TestNG-test-AllTests-3] INFO  pages.LoginPage - User Role selected: Admin
+2025-10-17 16:32:58.198 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Typing Employee Name: a
+2025-10-17 16:32:58.199 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'a' into element: By.xpath: //input[@placeholder='Type for hints...']
+2025-10-17 16:32:58.397 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:32:58.397 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: ((//div[@role='listbox'])[1]//span)[1]
+2025-10-17 16:33:00.172 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:33:00.172 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Dashboard heading displayed: false
+2025-10-17 16:33:00.173 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Logout successful
+2025-10-17 16:33:00.173 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Finished: verifyLogout ==========
+2025-10-17 16:33:00.174 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogout (25976 ms)
+2025-10-17 16:33:00.178 [TestNG-test-AllTests-5] INFO  base.BaseTest - Closing browser
+2025-10-17 16:33:00.256 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:00.257 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Employee Name selected
+2025-10-17 16:33:00.257 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Status Enabled
+2025-10-17 16:33:00.257 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+2025-10-17 16:33:00.423 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:00.424 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Enabled']
+2025-10-17 16:33:00.582 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:00.584 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Status selected Enabled
+2025-10-17 16:33:00.585 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:33:00.585 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:33:00.846 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:33:00.847 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Username entered: Mahendra
+2025-10-17 16:33:00.847 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Password
+2025-10-17 16:33:00.848 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[1]
+2025-10-17 16:33:01.084 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:33:01.084 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Password entered
+2025-10-17 16:33:01.085 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Confirm Password
+2025-10-17 16:33:01.085 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[2]
+2025-10-17 16:33:01.303 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:33:01.304 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Confirm Password entered
+2025-10-17 16:33:01.304 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Save button
+2025-10-17 16:33:01.304 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Save']
+2025-10-17 16:33:01.486 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:01.487 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Save button clicked
+2025-10-17 16:33:01.487 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:33:08.225 [TestNG-test-AllTests-2] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:33:08.226 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:33:08.227 [TestNG-test-AllTests-2] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:33:08.227 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:33:08.227 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:33:08.228 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:33:09.250 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:09.251 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:33:09.251 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:33:09.251 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:33:10.091 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:33:10.091 [TestNG-test-AllTests-2] INFO  pages.LoginPage -  Username Entered: Mahendra
+2025-10-17 16:33:10.092 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Clicking on search button
+2025-10-17 16:33:10.093 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Search']
+2025-10-17 16:33:10.284 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:10.284 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Search Button CLicked
+2025-10-17 16:33:10.284 [TestNG-test-AllTests-2] INFO  pages.LoginPage - selecting user checkbox
+2025-10-17 16:33:10.285 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-table-card']//div//div)[1]
+2025-10-17 16:33:11.173 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:11.174 [TestNG-test-AllTests-2] INFO  pages.LoginPage - user checkbox selected
+2025-10-17 16:33:11.174 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Clicking on delete button
+2025-10-17 16:33:11.175 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.xpath: //i[@class='oxd-icon bi-trash']
+2025-10-17 16:33:11.532 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:11.533 [TestNG-test-AllTests-2] INFO  pages.LoginPage - delete Button CLicked
+2025-10-17 16:33:11.533 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Clicking on confirm delete button
+2025-10-17 16:33:11.534 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Yes, Delete']
+2025-10-17 16:33:11.703 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:33:11.704 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[.='Success']
+2025-10-17 16:33:11.810 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:33:11.811 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Confirm delete Button CLicked
+2025-10-17 16:33:11.812 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[.='Success']
+2025-10-17 16:33:12.398 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[.='Success']
+2025-10-17 16:33:12.398 [TestNG-test-AllTests-2] INFO  tests.LoginTest - Verifying user deletion result
+2025-10-17 16:33:12.398 [TestNG-test-AllTests-2] INFO  tests.LoginTest - User deleted succesfully.
+2025-10-17 16:33:12.398 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - âœ… Test passed: deleteAdminUser (17497 ms)
+2025-10-17 16:33:12.401 [TestNG-test-AllTests-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:33:21.996 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //p[.='Success']
+2025-10-17 16:33:21.997 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying user creation result
+2025-10-17 16:33:21.998 [TestNG-test-AllTests-3] ERROR utilities.ListenersUtil - â�Œ Test failed: createNewAdmin (38097 ms)
+2025-10-17 16:33:22.267 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/createNewAdmin_20251017_163322.png
+2025-10-17 16:33:22.267 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/createNewAdmin_20251017_163322.png
+2025-10-17 16:33:22.269 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:33:22.486 [main] INFO  utilities.ListenersUtil - ðŸ�� Suite finished: AllTests
+2025-10-17 16:33:23.133 [main] INFO  utilities.ExtentReportUtils - ðŸ�� ExtentReports flushed successfully
+2025-10-17 16:35:47.198 [main] INFO  utilities.ExtentReportUtils - âœ… ExtentReports initialized at: D:\Automation practice\javaSelenium\Orange-HRM/reports/ExtentReport_20251017_163547.html
+2025-10-17 16:35:47.446 [main] INFO  utilities.ListenersUtil - â–¶ï¸� Suite started: AllTests
+2025-10-17 16:35:47.501 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“‚ Opening Excel file: D:\Automation practice\javaSelenium\Orange-HRM/testData/credentials.xlsx
+2025-10-17 16:35:47.525 [TestNG-test-AllTests-4] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:47.525 [TestNG-test-AllTests-5] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:47.526 [TestNG-test-AllTests-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:47.525 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-4] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-5] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:47.527 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:47.528 [TestNG-test-AllTests-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:47.528 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:48.369 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - ðŸ“Š Sheet 'Sheet1' has 3 rows and 2 columns
+2025-10-17 16:35:48.385 [TestNG-test-AllTests-1] INFO  utilities.ExcelUtils - âœ… Successfully read data from Excel sheet 'Sheet1'
+2025-10-17 16:35:48.402 [TestNG-PoolService-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:48.403 [TestNG-PoolService-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:48.402 [TestNG-PoolService-1] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:48.403 [TestNG-PoolService-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:48.403 [TestNG-PoolService-2] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:48.406 [TestNG-PoolService-2] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:48.404 [TestNG-PoolService-1] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:48.413 [TestNG-PoolService-2] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:48.415 [TestNG-PoolService-1] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:50.235 [TestNG-test-AllTests-4] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:50.235 [TestNG-test-AllTests-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:50.846 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:50.853 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:50.888 [TestNG-test-AllTests-4] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.281 [TestNG-test-AllTests-5] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:51.303 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.329 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.343 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.409 [TestNG-test-AllTests-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.433 [TestNG-PoolService-1] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:51.511 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.511 [TestNG-PoolService-2] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:51.551 [TestNG-test-AllTests-5] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.597 [TestNG-PoolService-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:51.623 [TestNG-PoolService-2] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.642 [TestNG-PoolService-1] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.661 [TestNG-PoolService-2] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.723 [TestNG-PoolService-1] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:51.740 [TestNG-PoolService-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:51.781 [TestNG-PoolService-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:35:53.899 [TestNG-test-AllTests-4] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:53.915 [TestNG-test-AllTests-4] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogin
+2025-10-17 16:35:53.917 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogin
+2025-10-17 16:35:53.918 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Started: verifyLogin ==========
+2025-10-17 16:35:53.926 [TestNG-test-AllTests-4] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:53.927 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:35:53.927 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:35:53.928 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:35:54.537 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:54.539 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyForgotPassword
+2025-10-17 16:35:54.542 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyForgotPassword
+2025-10-17 16:35:54.543 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Started: verifyForgotPassword ==========
+2025-10-17 16:35:54.544 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:54.545 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing forgot password flow for user: Admin
+2025-10-17 16:35:54.546 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Initiating forgot password flow for user: Admin
+2025-10-17 16:35:54.549 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']
+2025-10-17 16:35:54.747 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:54.748 [TestNG-test-AllTests-4] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:54.763 [TestNG-PoolService-1] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:54.766 [TestNG-PoolService-1] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:35:54.766 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:35:54.778 [TestNG-PoolService-1] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Admin
+2025-10-17 16:35:54.779 [TestNG-PoolService-1] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:54.797 [TestNG-PoolService-1] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:35:54.797 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:35:54.840 [TestNG-PoolService-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:54.844 [TestNG-PoolService-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:35:54.844 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:35:54.845 [TestNG-PoolService-3] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: RamCharan
+2025-10-17 16:35:54.845 [TestNG-PoolService-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:54.845 [TestNG-PoolService-3] INFO  pages.LoginPage - Attempting login for user: RamCharan
+2025-10-17 16:35:54.846 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'RamCharan' into element: By.name: username
+2025-10-17 16:35:54.973 [TestNG-test-AllTests-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:54.977 [TestNG-test-AllTests-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyDashboardPageElements
+2025-10-17 16:35:54.979 [TestNG-test-AllTests-4] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:54.982 [TestNG-test-AllTests-4] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:54.983 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyDashboardPageElements
+2025-10-17 16:35:54.984 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Started: verifyDashboardPageElements ==========
+2025-10-17 16:35:54.986 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:54.987 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:35:54.989 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:35:54.989 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:35:55.077 [TestNG-test-AllTests-5] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:55.079 [TestNG-test-AllTests-5] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: verifyLogout
+2025-10-17 16:35:55.088 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: verifyLogout
+2025-10-17 16:35:55.089 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Started: verifyLogout ==========
+2025-10-17 16:35:55.090 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:55.091 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Logging in with valid credentials
+2025-10-17 16:35:55.093 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:35:55.093 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:35:55.442 [TestNG-PoolService-2] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:35:55.446 [TestNG-PoolService-2] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: loginWithExcelData
+2025-10-17 16:35:55.451 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: loginWithExcelData
+2025-10-17 16:35:55.452 [TestNG-PoolService-2] INFO  base.BaseTest - ðŸŸ¢ Starting login test for user: Mahendra
+2025-10-17 16:35:55.453 [TestNG-PoolService-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:35:55.456 [TestNG-PoolService-2] INFO  pages.LoginPage - Attempting login for user: Mahendra
+2025-10-17 16:35:55.461 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'Mahendra' into element: By.name: username
+2025-10-17 16:35:55.571 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:55.572 [TestNG-PoolService-1] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:55.690 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:55.690 [TestNG-PoolService-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:55.727 [TestNG-PoolService-1] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:55.728 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:55.892 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:55.892 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:35:55.984 [TestNG-PoolService-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:55.985 [TestNG-PoolService-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:56.067 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.067 [TestNG-test-AllTests-5] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:56.298 [TestNG-PoolService-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.300 [TestNG-PoolService-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:56.348 [TestNG-test-AllTests-4] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.349 [TestNG-test-AllTests-4] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:56.405 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.405 [TestNG-test-AllTests-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:56.406 [TestNG-test-AllTests-5] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.407 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:56.514 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.514 [TestNG-PoolService-2] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:35:56.648 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.651 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:56.697 [TestNG-test-AllTests-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.698 [TestNG-test-AllTests-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:56.740 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.741 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:56.762 [TestNG-PoolService-2] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:35:56.763 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:35:56.866 [TestNG-test-AllTests-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.866 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:56.892 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.892 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:35:56.892 [TestNG-PoolService-2] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:56.892 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:57.158 [TestNG-PoolService-1] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:35:57.158 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:57.639 [TestNG-PoolService-3] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:57.640 [TestNG-PoolService-3] WARN  pages.LoginPage - Login failed for user: RamCharan
+2025-10-17 16:35:57.640 [TestNG-PoolService-3] WARN  base.BaseTest - â�Œ Login failed for user: RamCharan
+2025-10-17 16:35:57.664 [TestNG-PoolService-3] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (2817 ms)
+2025-10-17 16:35:57.966 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163557.png
+2025-10-17 16:35:57.971 [TestNG-PoolService-3] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163557.png
+2025-10-17 16:35:57.973 [TestNG-PoolService-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:35:58.218 [TestNG-PoolService-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:35:58.219 [TestNG-PoolService-2] WARN  pages.LoginPage - Login failed for user: Mahendra
+2025-10-17 16:35:58.219 [TestNG-PoolService-2] WARN  base.BaseTest - â�Œ Login failed for user: Mahendra
+2025-10-17 16:35:58.219 [TestNG-PoolService-2] ERROR utilities.ListenersUtil - â�Œ Test failed: loginWithExcelData (2773 ms)
+2025-10-17 16:35:58.343 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Reset Password link sent successfully']
+2025-10-17 16:35:58.343 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Reset password link sent successfully for user: Admin
+2025-10-17 16:35:58.343 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying reset password result
+2025-10-17 16:35:58.344 [TestNG-test-AllTests-3] INFO  tests.LoginTest - ========== Test Finished: verifyForgotPassword ==========
+2025-10-17 16:35:58.345 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: verifyForgotPassword (3803 ms)
+2025-10-17 16:35:58.348 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:35:58.421 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot saved: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163558.png
+2025-10-17 16:35:58.440 [TestNG-PoolService-2] INFO  utilities.ListenersUtil - ðŸ“¸ Screenshot attached: D:\Automation practice\javaSelenium\Orange-HRM/screenshots/loginWithExcelData_20251017_163558.png
+2025-10-17 16:35:58.445 [TestNG-PoolService-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:35:58.903 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:35:58.904 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:35:58.905 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:35:59.827 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:35:59.877 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:35:59.893 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:36:03.207 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:36:03.209 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: createNewAdmin
+2025-10-17 16:36:03.210 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: createNewAdmin
+2025-10-17 16:36:03.210 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:03.211 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:36:03.211 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:36:03.211 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:36:05.465 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:05.466 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:36:05.754 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:05.755 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:36:06.013 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:06.013 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:06.673 [TestNG-test-AllTests-4] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:06.674 [TestNG-test-AllTests-4] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:06.674 [TestNG-test-AllTests-4] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:36:06.675 [TestNG-test-AllTests-4] INFO  tests.LoginTest - ========== Test Finished: verifyLogin ==========
+2025-10-17 16:36:06.676 [TestNG-test-AllTests-4] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogin (12757 ms)
+2025-10-17 16:36:06.682 [TestNG-test-AllTests-4] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:07.000 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:07.000 [TestNG-test-AllTests-5] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:07.002 [TestNG-test-AllTests-5] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:07.010 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - Performing logout
+2025-10-17 16:36:07.010 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Performing logout action
+2025-10-17 16:36:07.012 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //p[@class='oxd-userdropdown-name']
+2025-10-17 16:36:07.143 [TestNG-test-AllTests-2] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:07.148 [TestNG-test-AllTests-2] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:07.150 [TestNG-test-AllTests-2] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:07.150 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying Dashboard heading visibility
+2025-10-17 16:36:07.151 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:36:07.151 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:36:07.254 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:36:07.254 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Dashboard heading displayed: true
+2025-10-17 16:36:07.255 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying profile image visibility
+2025-10-17 16:36:07.255 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if profile image is displayed
+2025-10-17 16:36:07.255 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:36:07.330 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:07.330 [TestNG-test-AllTests-5] INFO  base.BasePage - Clicking on element: By.xpath: //a[normalize-space()='Logout']
+2025-10-17 16:36:07.376 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //img[@class='oxd-userdropdown-img']
+2025-10-17 16:36:07.376 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Profile image displayed: true
+2025-10-17 16:36:07.377 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - Verifying all Dashboard widgets visibility
+2025-10-17 16:36:07.377 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - Checking if all widgets on Dashboard are displayed
+2025-10-17 16:36:07.379 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:36:07.447 [TestNG-PoolService-1] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:07.447 [TestNG-PoolService-1] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:07.448 [TestNG-PoolService-1] INFO  base.BaseTest - âœ… Login successful for user: Admin
+2025-10-17 16:36:07.448 [TestNG-PoolService-1] INFO  utilities.ListenersUtil - âœ… Test passed: loginWithExcelData (12681 ms)
+2025-10-17 16:36:07.453 [TestNG-PoolService-1] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:07.476 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='My Actions']
+2025-10-17 16:36:07.477 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:36:07.589 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Time at Work']
+2025-10-17 16:36:07.590 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:36:07.667 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Quick Launch']
+2025-10-17 16:36:07.668 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:36:07.885 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Buzz Latest Posts']
+2025-10-17 16:36:07.886 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:36:07.965 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employees on Leave Today']
+2025-10-17 16:36:07.966 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:36:08.144 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Sub Unit']
+2025-10-17 16:36:08.144 [TestNG-test-AllTests-2] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:36:08.316 [TestNG-test-AllTests-2] DEBUG base.BasePage - Element is displayed: By.xpath: //p[normalize-space()='Employee Distribution by Location']
+2025-10-17 16:36:08.318 [TestNG-test-AllTests-2] INFO  pages.DashboardPage - All widgets displayed: true
+2025-10-17 16:36:08.318 [TestNG-test-AllTests-2] INFO  tests.DashboardTest - ========== Test Finished: verifyDashboardPageElements ==========
+2025-10-17 16:36:08.321 [TestNG-test-AllTests-2] INFO  utilities.ListenersUtil - âœ… Test passed: verifyDashboardPageElements (13338 ms)
+2025-10-17 16:36:08.331 [TestNG-test-AllTests-2] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:08.592 [TestNG-test-AllTests-5] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:08.593 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Checking if Dashboard heading is displayed
+2025-10-17 16:36:08.593 [TestNG-test-AllTests-5] INFO  base.BasePage - Checking if element is displayed: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:36:16.115 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:16.116 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:16.117 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:36:16.122 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:16.123 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:36:16.124 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:36:17.033 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:17.033 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:36:17.034 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Add button
+2025-10-17 16:36:17.034 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Add']
+2025-10-17 16:36:18.248 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:18.248 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Add button clicked
+2025-10-17 16:36:18.249 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Admin role
+2025-10-17 16:36:18.249 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[contains(text(),'-- Select --')])[1]
+2025-10-17 16:36:18.770 [TestNG-test-AllTests-5] WARN  base.BasePage - Element not visible: By.xpath: //h6[normalize-space()='Dashboard']
+2025-10-17 16:36:18.771 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Dashboard heading displayed: false
+2025-10-17 16:36:18.771 [TestNG-test-AllTests-5] INFO  pages.DashboardPage - Logout successful
+2025-10-17 16:36:18.771 [TestNG-test-AllTests-5] INFO  tests.DashboardTest - ========== Test Finished: verifyLogout ==========
+2025-10-17 16:36:18.772 [TestNG-test-AllTests-5] INFO  utilities.ListenersUtil - âœ… Test passed: verifyLogout (23684 ms)
+2025-10-17 16:36:18.776 [TestNG-test-AllTests-5] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:18.972 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:18.973 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[contains(text(),'Admin')]
+2025-10-17 16:36:19.142 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:19.143 [TestNG-test-AllTests-3] INFO  pages.LoginPage - User Role selected: Admin
+2025-10-17 16:36:19.143 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Typing Employee Name: a
+2025-10-17 16:36:19.144 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'a' into element: By.xpath: //input[@placeholder='Type for hints...']
+2025-10-17 16:36:19.371 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:19.371 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: ((//div[@role='listbox'])[1]//span)[1]
+2025-10-17 16:36:21.204 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:21.204 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Employee Name selected
+2025-10-17 16:36:21.206 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Selecting Status Enabled
+2025-10-17 16:36:21.206 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-select-text-input'])[2]
+2025-10-17 16:36:21.388 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:21.389 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Enabled']
+2025-10-17 16:36:21.572 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:21.573 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Status selected Enabled
+2025-10-17 16:36:21.573 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:36:21.574 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:36:21.819 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:21.819 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Username entered: Mahendra
+2025-10-17 16:36:21.820 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Password
+2025-10-17 16:36:21.820 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[1]
+2025-10-17 16:36:22.025 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:22.025 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Password entered
+2025-10-17 16:36:22.026 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Confirm Password
+2025-10-17 16:36:22.026 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahe@1234' into element: By.xpath: (//input[@type='password'])[2]
+2025-10-17 16:36:22.216 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:22.216 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Confirm Password entered
+2025-10-17 16:36:22.217 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on Save button
+2025-10-17 16:36:22.217 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Save']
+2025-10-17 16:36:22.398 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:22.399 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Save button clicked
+2025-10-17 16:36:22.399 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:36:28.098 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //div[contains(text(),'Mahendra')]
+2025-10-17 16:36:28.098 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying user creation result
+2025-10-17 16:36:28.099 [TestNG-test-AllTests-3] INFO  tests.LoginTest - User created succesfully.
+2025-10-17 16:36:28.099 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: createNewAdmin (24889 ms)
+2025-10-17 16:36:28.103 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:28.349 [TestNG-test-AllTests-3] INFO  base.BaseTest - Loading config.properties file
+2025-10-17 16:36:28.350 [TestNG-test-AllTests-3] INFO  base.BaseTest - Config loaded successfully
+2025-10-17 16:36:28.351 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser selected: chrome
+2025-10-17 16:36:29.356 [TestNG-test-AllTests-3] INFO  base.BaseTest - Chrome browser launched with English language
+2025-10-17 16:36:29.413 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser window maximized
+2025-10-17 16:36:29.435 [TestNG-test-AllTests-3] INFO  base.BaseTest - Browser cookies cleared
+2025-10-17 16:36:32.953 [TestNG-test-AllTests-3] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-17 16:36:32.954 [TestNG-test-AllTests-3] INFO  utilities.ExtentReportUtils - ðŸ”¹ ExtentTest created: deleteAdminUser
+2025-10-17 16:36:32.955 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - ðŸ”¹ Test started: deleteAdminUser
+2025-10-17 16:36:32.955 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:32.955 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Performing login with valid credentials
+2025-10-17 16:36:32.956 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Attempting login for user: Admin
+2025-10-17 16:36:32.956 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Admin' into element: By.name: username
+2025-10-17 16:36:34.175 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:34.176 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'admin123' into element: By.name: password
+2025-10-17 16:36:34.287 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:34.288 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.cssSelector: button[type='submit']
+2025-10-17 16:36:34.367 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:34.367 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:44.513 [TestNG-test-AllTests-3] WARN  base.BasePage - Element not visible: By.xpath: //p[@class='oxd-text oxd-text--p oxd-alert-content-text']
+2025-10-17 16:36:44.513 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Login successful for user: Admin
+2025-10-17 16:36:44.513 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying login result
+2025-10-17 16:36:44.514 [TestNG-test-AllTests-3] INFO  base.BasePage - BasePage initialized with WebDriver
+2025-10-17 16:36:44.514 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Navigating to Admin Page
+2025-10-17 16:36:44.514 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //span[normalize-space()='Admin']
+2025-10-17 16:36:45.396 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:45.396 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Inside Admin Page
+2025-10-17 16:36:45.396 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Entering Username: Mahendra
+2025-10-17 16:36:45.396 [TestNG-test-AllTests-3] INFO  base.BasePage - Typing 'Mahendra' into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+2025-10-17 16:36:46.221 [TestNG-test-AllTests-3] DEBUG base.BasePage - Text typed successfully
+2025-10-17 16:36:46.221 [TestNG-test-AllTests-3] INFO  pages.LoginPage -  Username Entered: Mahendra
+2025-10-17 16:36:46.221 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on search button
+2025-10-17 16:36:46.221 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Search']
+2025-10-17 16:36:46.295 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:46.295 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Search Button CLicked
+2025-10-17 16:36:46.295 [TestNG-test-AllTests-3] INFO  pages.LoginPage - selecting user checkbox
+2025-10-17 16:36:46.296 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: (//div[@class='oxd-table-card']//div//div)[1]
+2025-10-17 16:36:46.922 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:46.922 [TestNG-test-AllTests-3] INFO  pages.LoginPage - user checkbox selected
+2025-10-17 16:36:46.922 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on delete button
+2025-10-17 16:36:46.922 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //i[@class='oxd-icon bi-trash']
+2025-10-17 16:36:47.005 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:47.005 [TestNG-test-AllTests-3] INFO  pages.LoginPage - delete Button CLicked
+2025-10-17 16:36:47.005 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Clicking on confirm delete button
+2025-10-17 16:36:47.005 [TestNG-test-AllTests-3] INFO  base.BasePage - Clicking on element: By.xpath: //button[normalize-space()='Yes, Delete']
+2025-10-17 16:36:47.770 [TestNG-test-AllTests-3] DEBUG base.BasePage - Clicked element successfully
+2025-10-17 16:36:47.770 [TestNG-test-AllTests-3] INFO  pages.LoginPage - Confirm delete Button CLicked
+2025-10-17 16:36:47.770 [TestNG-test-AllTests-3] INFO  base.BasePage - Checking if element is displayed: By.xpath: //p[.='Success']
+2025-10-17 16:36:48.389 [TestNG-test-AllTests-3] DEBUG base.BasePage - Element is displayed: By.xpath: //p[.='Success']
+2025-10-17 16:36:48.390 [TestNG-test-AllTests-3] INFO  tests.LoginTest - Verifying user deletion result
+2025-10-17 16:36:48.390 [TestNG-test-AllTests-3] INFO  tests.LoginTest - User deleted succesfully.
+2025-10-17 16:36:48.391 [TestNG-test-AllTests-3] INFO  utilities.ListenersUtil - âœ… Test passed: deleteAdminUser (15435 ms)
+2025-10-17 16:36:48.395 [TestNG-test-AllTests-3] INFO  base.BaseTest - Closing browser
+2025-10-17 16:36:48.608 [main] INFO  utilities.ListenersUtil - ðŸ�� Suite finished: AllTests
+2025-10-17 16:36:49.049 [main] INFO  utilities.ExtentReportUtils - ðŸ�� ExtentReports flushed successfully
