@@ -41,7 +41,7 @@ public class AdminTest extends BaseTest {
 		log.info("User created succesfully.");
 	}
 	
-	@Test(priority = 2)
+	@Test(dependsOnMethods = "createNewAdmin" )
 	public void deleteAdminUser()
 	{
 		LoginPage loginPage = new LoginPage(getDriver());
