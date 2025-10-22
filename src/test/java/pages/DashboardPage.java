@@ -14,7 +14,7 @@ public class DashboardPage extends BasePage {
         super(driver);
     }
 
-    private By heading = By.xpath("//h6[normalize-space()='Dashboard']");
+	private By heading = By.xpath("//h6[normalize-space()='Dashboard']");
     private By profileImage = By.xpath("//img[@class='oxd-userdropdown-img']");
     private By myActions = By.xpath("//p[normalize-space()='My Actions']");
     private By timeAtWork = By.xpath("//p[normalize-space()='Time at Work']");

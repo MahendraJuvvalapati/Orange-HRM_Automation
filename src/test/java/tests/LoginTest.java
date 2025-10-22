@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import base.BaseTest;
+import pages.DashboardPage;
 import pages.LoginPage;
 
 public class LoginTest extends BaseTest {
@@ -24,9 +25,13 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(isLoggedIn, "Login Failed....");
         
         log.info("========== Test Finished: verifyLogin ==========");
+        
+        DashboardPage dashboardPage =new DashboardPage(getDriver());
+        
+        dashboardPage.clickOnLogout();
     }
 
-    @Test
+    @Test(dependsOnMethods = "verifyLogin")
     public void verifyForgotPassword() {
         log.info("========== Test Started: verifyForgotPassword ==========");
         

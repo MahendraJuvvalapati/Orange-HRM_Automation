@@ -34,14 +34,9 @@ public class DashboardTest extends BaseTest {
         log.info("========== Test Finished: verifyDashboardPageElements ==========");
     }
 
-    @Test
+    @Test(dependsOnMethods = "verifyDashboardPageElements")
     public void verifyLogout() {
         log.info("========== Test Started: verifyLogout ==========");
-
-        LoginPage loginPage = new LoginPage(getDriver());
-        log.info("Logging in with valid credentials");
-        boolean isLoggedIn = loginPage.loginToApplication("Admin", "admin123");
-        Assert.assertTrue(isLoggedIn, "Login Failed...");
 
         DashboardPage dashboardPage = new DashboardPage(getDriver());
         log.info("Performing logout");

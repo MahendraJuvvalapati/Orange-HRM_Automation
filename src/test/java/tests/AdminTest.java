@@ -36,26 +36,20 @@ public class AdminTest extends BaseTest {
 		adminPage.clickOnSave();
 		boolean isCreated=adminPage.isAdminUserCreated();
 		
+		
 		log.info("Verifying user creation result");
 		Assert.assertTrue(isCreated,"Admin User Not Created..");
 		log.info("User created succesfully.");
+		
+	 
 	}
 	
 	@Test(dependsOnMethods = "createNewAdmin" )
 	public void deleteAdminUser()
 	{
-		LoginPage loginPage = new LoginPage(getDriver());
-
-		log.info("Performing login with valid credentials");
-		boolean isLoggedIn = loginPage.loginToApplication("Admin", "admin123");
-
-		log.info("Verifying login result");
-		Assert.assertTrue(isLoggedIn, "Login Failed....");
 		
 		AdminPage adminPage=new AdminPage(getDriver());
-		
-		adminPage.navigateToAdmin();
-		
+
 		adminPage.enterUserNameIntoSearch("Mahendra");
 		adminPage.clickOnSearch();
 		adminPage.selectUserCheckBox();

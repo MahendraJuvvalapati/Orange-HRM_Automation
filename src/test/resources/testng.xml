@@ -14,6 +14,7 @@
         <classes>
             <class name="tests.LoginTest"/>
             <class name="tests.DashboardTest"/>
+            <class name="tests.AdminTest"/>
         </classes>
 
     </test>
