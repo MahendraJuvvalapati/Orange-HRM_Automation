@@ -99,7 +99,7 @@ public class AdminPage extends BasePage {
     
     public boolean isAdminUserCreated()
     {
-    	return isDisplayed(createdUser)||isSuccessMessageDisplayed();
+    	return isSuccessMessageDisplayed()||isDisplayed(createdUser);
     }
     
     public void enterUserNameIntoSearch(String name)
