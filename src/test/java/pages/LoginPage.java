@@ -53,4 +53,9 @@ public class LoginPage extends BasePage {
         }
         return loginSuccess;
     }
+    
+    public boolean verifyInvalidCredentialsMessage()
+    {
+    	return isDisplayed(invalidCreds);
+    }
 }

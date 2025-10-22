@@ -25,7 +25,7 @@ public class BasePage {
         log.info("BasePage initialized with WebDriver");
     }
 
-    // ------------- Browser Operations -------------
+	// ------------- Browser Operations -------------
     public void openUrl(String url) {
         log.info("Navigating to URL: " + url);
         driver.get(url);
@@ -266,5 +266,9 @@ public class BasePage {
     public List<WebElement> getElements(By locator) {
         log.info("Getting list of elements: " + locator);
         return driver.findElements(locator);
+    }
+    
+    public By findElementBylabelText(String visibleText) {
+        return By.xpath("//*[normalize-space(text())='" + visibleText + "']/parent::*/following-sibling::*[1]");
     }
 }

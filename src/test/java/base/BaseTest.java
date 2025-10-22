@@ -2,6 +2,7 @@ package base;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,7 +11,9 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.FileInputStream;
@@ -31,7 +34,7 @@ public class BaseTest {
         return driverThread.get();
     }
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         log.info("Loading config.properties file");
         loadConfig();
@@ -46,6 +49,7 @@ public class BaseTest {
                 Map<String, Object> prefs = new HashMap<>();
                 prefs.put("intl.accept_languages", "en,en_US");
                 options.setExperimentalOption("prefs", prefs);
+                options.addArguments("--incognito");
                 options.addArguments("--lang=en");
                 options.addArguments("--remote-allow-origins=*");
 
@@ -87,12 +91,15 @@ public class BaseTest {
         String url = config.getProperty("baseUrl");
         driver.get(url);
         log.info("Navigated to URL: " + url);
+        
+        log.info("Disabling Alerts");
+        disableAlerts(driver);
 
         // Set driver for current thread
         driverThread.set(driver);
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
         WebDriver driver = driverThread.get();
         if (driver != null) {
@@ -112,4 +119,14 @@ public class BaseTest {
             throw new RuntimeException("Failed to load config.properties file.", e);
         }
     }
+    
+    public void disableAlerts(WebDriver driver) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript(
+            "window.alert = function(msg) { console.log('Alert suppressed: ' + msg); };" +
+            "window.confirm = function(msg) { console.log('Confirm suppressed: ' + msg); return true; };" +
+            "window.prompt = function(msg) { console.log('Prompt suppressed: ' + msg); return null; };"
+        );
+    }
+
 }
