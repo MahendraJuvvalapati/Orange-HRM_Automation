@@ -14,7 +14,7 @@ public class AdminTest extends BaseTest {
 	private Logger log = LogManager.getLogger(LoginTest.class);
 
 	@Test(priority = 1)
-	public void createNewAdmin() {
+	public void createNewAdmin() throws InterruptedException {
 		LoginPage loginPage = new LoginPage(getDriver());
 
 		log.info("Performing login with valid credentials");
@@ -40,7 +40,7 @@ public class AdminTest extends BaseTest {
 		log.info("Verifying user creation result");
 		Assert.assertTrue(isCreated,"Admin User Not Created..");
 		log.info("User created succesfully.");
-		
+		Thread.sleep(4000);
 	 
 	}
 	
