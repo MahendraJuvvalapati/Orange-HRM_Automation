@@ -8,7 +8,7 @@ import base.BasePage;
 
 public class AdminPage extends BasePage {
 
-	private Logger log = LogManager.getLogger(LoginPage.class); // Logger instance
+	private Logger log = LogManager.getLogger(AdminPage.class); // Logger instance
 
     public AdminPage(WebDriver driver) {
         super(driver);
@@ -31,8 +31,11 @@ public class AdminPage extends BasePage {
     private By searchBtn=By.xpath("//button[normalize-space()='Search']");
     private By userCheckBox=By.xpath("(//div[@class='oxd-table-card']//div//div)[1]");
     private By deleteUserBtn=By.xpath("//i[@class='oxd-icon bi-trash']");
+    private By editUserBtn=By.xpath("//i[@class='oxd-icon bi-pencil-fill']");
     private By deleteConfirm=By.xpath("//button[normalize-space()='Yes, Delete']");
     private By successMessage=By.xpath("//p[.='Success']");
+    private By getUsername=By.xpath("(//div[contains(text(),'Mahendra Juvvalapati')])[1]");
+    
     
     
     
@@ -125,6 +128,13 @@ public class AdminPage extends BasePage {
     	click(deleteUserBtn);
     	log.info("delete Button CLicked");
     }
+    
+    public void clickOnEdit()
+    {
+    	log.info("Clicking on edit button");
+    	click(editUserBtn);
+    	log.info("edit Button CLicked");
+    }
     public void clickOnConfirmDelete()
     {
     	log.info("Clicking on confirm delete button");
@@ -136,5 +146,10 @@ public class AdminPage extends BasePage {
     {
     	return isDisplayed(successMessage);
     }
+
+	public boolean verifyUserName() 
+	{
+		return isDisplayed(getUsername);
+	}
     
 }

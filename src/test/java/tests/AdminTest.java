@@ -11,7 +11,7 @@ import pages.LoginPage;
 
 public class AdminTest extends BaseTest {
 
-	private Logger log = LogManager.getLogger(LoginTest.class);
+	private Logger log = LogManager.getLogger(AdminTest.class);
 
 	@Test(priority = 1)
 	public void createNewAdmin() throws InterruptedException {
@@ -45,12 +45,37 @@ public class AdminTest extends BaseTest {
 	}
 	
 	@Test(dependsOnMethods = "createNewAdmin" )
-	public void deleteAdminUser()
+	public void editAdminUser() throws InterruptedException
 	{
 		
 		AdminPage adminPage=new AdminPage(getDriver());
 
 		adminPage.enterUserNameIntoSearch("Mahendra");
+		adminPage.clickOnSearch();
+		adminPage.clickOnEdit();
+		adminPage.enterUserName("Mahendra Juvvalapati");
+		adminPage.clickOnSave();
+		
+		boolean isSuccess=adminPage.isSuccessMessageDisplayed();
+		log.info("Verifying user edit result");
+		Assert.assertTrue(isSuccess,"Admin User Not Created..");
+		log.info("User edited succesfully.");
+		Thread.sleep(4000);
+		adminPage.enterUserNameIntoSearch("Mahendra Juvvalapati");
+		adminPage.clickOnSearch();
+		boolean isChanged=adminPage.verifyUserName();
+		log.info("Verifying userName change result");
+		Assert.assertTrue(isChanged,"Admin User Not Created..");
+		log.info("UserName changed succesfully.");
+	}
+	
+	@Test(dependsOnMethods = "editAdminUser" )
+	public void deleteAdminUser()
+	{
+		
+		AdminPage adminPage=new AdminPage(getDriver());
+
+		adminPage.enterUserNameIntoSearch("Mahendra Juvvalapati");
 		adminPage.clickOnSearch();
 		adminPage.selectUserCheckBox();
 		adminPage.clickOnDelete();
