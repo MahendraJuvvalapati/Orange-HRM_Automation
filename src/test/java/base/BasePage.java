@@ -77,6 +77,7 @@ public class BasePage {
         log.info("Typing '" + text + "' into element: " + locator);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         element.clear();
+        performTextAction(locator, "clear");
         element.sendKeys(text);
         log.debug("Text typed successfully");
     }
@@ -270,5 +271,48 @@ public class BasePage {
     
     public By findElementBylabelText(String visibleText) {
         return By.xpath("//*[normalize-space(text())='" + visibleText + "']/parent::*/following-sibling::*[1]");
+    }
+    
+    public void performTextAction(By locator, String action) {
+        try {
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            element.click();
+
+            switch (action.toLowerCase()) {
+                case "clear":
+                    element.sendKeys(Keys.CONTROL, "a");
+                    element.sendKeys(Keys.DELETE);
+                    break;
+
+                case "delete":
+                    element.sendKeys(Keys.CONTROL, "a");
+                    element.sendKeys(Keys.BACK_SPACE);
+                    break;
+
+                case "copy":
+                    element.sendKeys(Keys.CONTROL, "a");
+                    element.sendKeys(Keys.CONTROL, "c");
+                    break;
+
+                case "paste":
+                    element.sendKeys(Keys.CONTROL, "v");
+                    break;
+
+                case "js-clear":
+                	((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].value=''; arguments[0].dispatchEvent(new Event('input', {bubbles:true}));",
+                        element
+                    );
+                    break;
+
+                default:
+                    throw new IllegalArgumentException("Unsupported action type: " + action);
+            }
+
+        } catch (TimeoutException e) {
+            log.error("⏳ Timeout: Element not found for locator: " + locator, e);
+        } catch (Exception e) {
+        	log.error("Failed to perform action '" + action + "' on element: " + locator, e.getMessage());
+        }
     }
 }

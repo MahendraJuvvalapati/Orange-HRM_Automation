@@ -4,66 +4,52 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import base.BasePage;
 
-public class AdminPage extends BasePage {
+public class PimPage extends BasePage{
+	
+	private Logger log = LogManager.getLogger(PimPage.class); // Logger instance
 
-	private Logger log = LogManager.getLogger(AdminPage.class); // Logger instance
-
-    public AdminPage(WebDriver driver) {
+    public PimPage(WebDriver driver) {
         super(driver);
     }
     
-    private By adminPage=By.xpath("//span[normalize-space()='Admin']");
+    private By pimPage=By.xpath("//span[normalize-space()='PIM']");
     private By addBtn=By.xpath("//button[normalize-space()='Add']");
-    private By userRoleDropdpwn=By.xpath("(//div[contains(text(),'-- Select --')])[1]");
-    private By selectAdmin=By.xpath("//span[contains(text(),'Admin')]");
-    private By statusDropdown=By.xpath("(//div[@class='oxd-select-text-input'])[2]");
-    private By selectEnabled=By.xpath("//span[normalize-space()='Enabled']");
-    private By empName=By.xpath("//input[@placeholder='Type for hints...']");
-    private By selectEmpname=By.xpath("((//div[@role='listbox'])[1]//span)[1]");    
-    private By userName=By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]");
+    private By firstName=By.xpath("//input[@placeholder='First Name']");
+    private By lastName=By.xpath("//input[@placeholder='Last Name']");
+    private By createLoginDetailsToggle=By.xpath("//span[contains(@class, 'oxd-switch-input')]");
+    private By userName=By.xpath("(//input[@class='oxd-input oxd-input--active'])[3]");
     private By password=By.xpath("(//input[@type='password'])[1]");
     private By confirmPassword=By.xpath("(//input[@type='password'])[2]");
     private By saveBtn=By.xpath("//button[normalize-space()='Save']");
-    private By createdUser=By.xpath("//div[contains(text(),'Mahendra')]");
-    private By searchUser=By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]");
+    private By successMessage=By.xpath("//p[.='Success']");
+    private By searchEmp=By.xpath("(//input[@placeholder='Type for hints...'])[1]");
     private By searchBtn=By.xpath("//button[normalize-space()='Search']");
     private By userCheckBox=By.xpath("(//div[@class='oxd-table-card']//div//div)[1]");
     private By deleteUserBtn=By.xpath("//i[@class='oxd-icon bi-trash']");
-    private By editUserBtn=By.xpath("//i[@class='oxd-icon bi-pencil-fill']");
     private By deleteConfirm=By.xpath("//button[normalize-space()='Yes, Delete']");
-    private By successMessage=By.xpath("//p[.='Success']");
-    private By getUsername=By.xpath("(//div[contains(text(),'Mahendra Juvvalapati')])[1]");
+    private By editUserBtn=By.xpath("//i[@class='oxd-icon bi-pencil-fill']");
+    private By getLastName=By.xpath("//div[contains(text(),'Juvvalapati')]");
     
     
     
     
-    public void selectAdminUserRole() {
-        log.info("Selecting Admin role");
-        click(userRoleDropdpwn);
-        click(selectAdmin);
-        log.info("User Role selected: Admin");
-    }
-
-    public void selectEmpName(String name) {
-        log.info("Typing Employee Name: " + name);
-        type(empName, name);
-        click(selectEmpname);
-        log.info("Employee Name selected");
-    }
-
-    public void selectStatus() {
-        log.info("Selecting Status Enabled");
-        click(statusDropdown);
-        click(selectEnabled);
-        log.info("Status selected Enabled");
-    }
-
     public void enterUserName(String name) {
         log.info("Entering Username: " + name);
         type(userName, name);
         log.info("Username entered: " + name);
+    }
+    public void enterFirstName(String name) {
+    	log.info("Entering firstname: " + name);
+    	type(firstName, name);
+    	log.info("firstname entered: " + name);
+    }
+    public void enterLastName(String name) {
+    	log.info("Entering lastname: " + name);
+    	type(lastName, name);
+    	log.info("lastname entered: " + name);
     }
 
     public void enterPassword(String pass) {
@@ -89,22 +75,29 @@ public class AdminPage extends BasePage {
         click(saveBtn);
         log.info("Save button clicked");
     }
-    public void navigateToAdmin()
+    
+    public void navigateToPIM()
     {
-    	log.info("Navigating to Admin Page");
-    	click(adminPage);
-    	log.info("Inside Admin Page");
+    	log.info("Navigating to PIM Page");
+    	click(pimPage);
+    	log.info("Inside PIM Page");
     }
     
-    public boolean isAdminUserCreated()
+    public void enableCreateLoginDetails()
     {
-    	return isSuccessMessageDisplayed()||isDisplayed(createdUser);
+    	log.info("enabling login details toggle");
+    	click(createLoginDetailsToggle);
+    	log.info("login details toggle enabled");
     }
     
-    public void enterUserNameIntoSearch(String name)
+    public boolean isPIMsaved()
+    {
+    	return isDisplayed(successMessage);
+    }
+    public void enterEmpNameIntoSearch(String name)
     {
         log.info("Entering Username: " + name);
-    	type(searchUser,name);
+    	type(searchEmp,name);
     	log.info(" Username Entered: " + name);
     }
     
@@ -128,13 +121,6 @@ public class AdminPage extends BasePage {
     	click(deleteUserBtn);
     	log.info("delete Button CLicked");
     }
-    
-    public void clickOnEdit()
-    {
-    	log.info("Clicking on edit button");
-    	click(editUserBtn);
-    	log.info("edit Button CLicked");
-    }
     public void clickOnConfirmDelete()
     {
     	log.info("Clicking on confirm delete button");
@@ -146,10 +132,15 @@ public class AdminPage extends BasePage {
     {
     	return isDisplayed(successMessage);
     }
+    public void clickOnEdit()
+    {
+    	log.info("Clicking on edit button");
+    	click(editUserBtn);
+    	log.info("edit Button CLicked");
+    }
+    public boolean isLastNameChanged()
+    {
+    	return isDisplayed(getLastName);
+    }
 
-	public boolean verifyUserName() 
-	{
-		return isDisplayed(getUsername);
-	}
-    
 }
