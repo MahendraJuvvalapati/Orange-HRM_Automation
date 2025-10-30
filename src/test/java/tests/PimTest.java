@@ -20,6 +20,7 @@ public class PimTest extends BaseTest{
 		pimPage.clickOnAddBtn();
 		pimPage.enterFirstName("Mahendra");
 		pimPage.enterLastName("J");
+		pimPage.enterEmpId("1112");
 		pimPage.enableCreateLoginDetails();
 		pimPage.enterUserName("Mahii");
 		pimPage.enterPassword("Mahi@1234");
@@ -64,7 +65,7 @@ public class PimTest extends BaseTest{
 	{
 		PimPage pimPage=new PimPage(getDriver());
 		pimPage.navigateToPIM();
-		pimPage.enterEmpNameIntoSearch("Mahendra");
+		pimPage.enterEmpIdIntoSearch("1112");
 		pimPage.clickOnSearch();
 		pimPage.selectUserCheckBox();
 		pimPage.clickOnDelete();

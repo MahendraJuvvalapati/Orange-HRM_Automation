@@ -21,6 +21,7 @@ public class PimPage extends BasePage{
     private By lastName=By.xpath("//input[@placeholder='Last Name']");
     private By createLoginDetailsToggle=By.xpath("//span[contains(@class, 'oxd-switch-input')]");
     private By userName=By.xpath("(//input[@class='oxd-input oxd-input--active'])[3]");
+    private By empId=By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]");
     private By password=By.xpath("(//input[@type='password'])[1]");
     private By confirmPassword=By.xpath("(//input[@type='password'])[2]");
     private By saveBtn=By.xpath("//button[normalize-space()='Save']");
@@ -40,6 +41,11 @@ public class PimPage extends BasePage{
         log.info("Entering Username: " + name);
         type(userName, name);
         log.info("Username entered: " + name);
+    }
+    public void enterEmpId(String id) {
+    	log.info("Entering empId: " + id);
+    	type(empId, id);
+    	log.info("empId entered: " + id);
     }
     public void enterFirstName(String name) {
     	log.info("Entering firstname: " + name);
@@ -99,6 +105,12 @@ public class PimPage extends BasePage{
         log.info("Entering Username: " + name);
     	type(searchEmp,name);
     	log.info(" Username Entered: " + name);
+    }
+    public void enterEmpIdIntoSearch(String Id)
+    {
+        log.info("Entering Id: " + Id);
+    	type(empId,Id);
+    	log.info(" Id Entered: " + Id);
     }
     
     public void clickOnSearch()
