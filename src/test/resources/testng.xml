@@ -16,6 +16,7 @@
             <class name="tests.DashboardTest"/>
             <class name="tests.AdminTest"/>
             <class name="tests.PimTest"/>
+            <class name="tests.BuzzTest"/>
         </classes>
 
     </test>

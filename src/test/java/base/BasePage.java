@@ -249,6 +249,19 @@ public class BasePage {
         WebElement element = driver.findElement(locator);
         ((JavascriptExecutor) driver).executeScript("arguments[0].value='" + text + "';", element);
     }
+    
+    public void uploadFileWithJS(By locator, String text)
+    {
+    	WebElement fileInput = driver.findElement(locator);
+    	((JavascriptExecutor) driver).executeScript("arguments[0].click()", fileInput);
+    	fileInput.sendKeys(text);
+    }
+    public void uploadFile(By locator, String filePath) {
+        WebElement fileInput = driver.findElement(locator);
+        fileInput.sendKeys(filePath);
+        log.info("✅ File uploaded successfully: " + filePath);
+    }
+
 
     // ------------- Miscellaneous -------------
     public void hoverOverElement(By locator) {
