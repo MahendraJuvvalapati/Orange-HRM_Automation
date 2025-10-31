@@ -88,6 +88,18 @@ public class BasePage {
         log.debug("Text obtained: " + text);
         return text;
     }
+    
+    public String getTextWithJs(By locator) {
+        log.info("Getting text from div using JavaScript: " + locator);
+        WebElement element = wait.until(ExpectedConditions.refreshed(
+                ExpectedConditions.presenceOfElementLocated(locator)));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String text = (String) js.executeScript("return arguments[0].value || arguments[0].textContent;", element);
+        log.debug("Text obtained via JS: " + text);
+        return text.trim();
+    }
+
+
 
     public boolean isDisplayed(By locator) {
         log.info("Checking if element is displayed: " + locator);
