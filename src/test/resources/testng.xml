@@ -18,6 +18,7 @@
             <class name="tests.PimTest"/>
             <class name="tests.BuzzTest"/>
             <class name="tests.ClaimTest"/>
+            <class name="tests.DirectoryTest"/>
         </classes>
 
     </test>
