@@ -19,6 +19,7 @@
             <class name="tests.BuzzTest"/>
             <class name="tests.ClaimTest"/>
             <class name="tests.DirectoryTest"/>
+            <class name="tests.MyInfoTest"/>
         </classes>
 
     </test>
